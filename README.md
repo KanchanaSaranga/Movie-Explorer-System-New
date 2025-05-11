@@ -1,3 +1,35 @@
+# 🎬 Movie Explorer App
+
+A modern movie explorer app built using React and TMDb API. Users can browse popular movies, view detailed information, and mark their favorites (stored using local storage).
+
+---
+
+## 🚀 Live Demo
+
+🔗 [Deployed Live Link](https://your-deployment-url.com)
+
+---
+
+## 📦 Tech Stack
+
+- React.js
+- Axios (for API calls)
+- React Router
+- Material UI
+- TMDb API
+- Local Storage (for Favorites)
+
+---
+
+## 🛠 Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://gitlab.com/your-username/movie-app.git
+cd movie-app
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
