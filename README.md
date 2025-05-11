@@ -44,7 +44,7 @@ A simple React movie app using TMDB API. Users can search, view details, and fav
 ## ▶️ Getting Started
 
 ```bash
-git clone https://gitlab.com/your-username/movie-explorer.git
+git clone (https://github.com/KanchanaSaranga/Movie-Explorer-System-New.git)
 cd movie-explorer
 npm install
 npm start
