@@ -1,0 +1,81 @@
+/* src/pages/Home.css */
+.home-container {
+  padding: 20px;
+  background: linear-gradient(135deg, #1f1f1f, #2b2b2b); /* Dark gradient for space-age feel */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.page-title {
+  color: #58a6ff;  /* Futuristic neon blue */
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.5rem; /* Larger title */
+  text-shadow: 0 0 15px #0ff, 0 0 30px #0ff, 0 0 50px #0ff; /* Neon glow effect */
+  font-family: 'Orbitron', sans-serif;
+}
+
+.MuiGrid-root {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.MuiGrid-item {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.MuiGrid-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.8); /* Glowing effect on hover */
+}
+
+/* Search Bar */
+.MuiInputBase-root {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 12px 20px;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
+  transition: box-shadow 0.3s ease;
+}
+
+.MuiInputBase-root:hover {
+  box-shadow: 0 0 20px rgba(0, 255, 255, 1); /* Glowing effect on hover */
+}
+
+.MuiInputBase-root input {
+  font-size: 1rem;
+  color: #333;
+}
+
+.MuiInputBase-root .MuiInputBase-input {
+  padding: 8px;
+  font-weight: 600;
+}
+
+.MuiInputBase-root .MuiInputAdornment-root {
+  color: #58a6ff;
+}
+
+/* Button */
+.MuiButton-root {
+  background: linear-gradient(45deg, #58a6ff, #0ff); /* Cool gradient for button */
+  color: white;
+  border-radius: 50px;
+  padding: 12px 20px;
+  font-weight: 700;
+  transition: transform 0.3s ease-in-out;
+}
+
+.MuiButton-root:hover {
+  transform: scale(1.1);
+  background: linear-gradient(45deg, #0ff, #58a6ff); /* Reversed gradient for hover */
+}
